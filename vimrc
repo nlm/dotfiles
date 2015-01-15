@@ -10,6 +10,7 @@ filetype on
 " Special File Types Rules
 au Filetype make set noexpandtab
 au BufNewFile,BufRead *.sls set filetype=yaml
+au BufNewFile,BufReadPost *.md set filetype=markdown
 au Filetype python,sh set tabstop=4
 au Filetype python,sh set shiftwidth=4
 
