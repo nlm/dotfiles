@@ -23,5 +23,5 @@ autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd BufWinLeave * call clearmatches()
 
 " Highlight column 80 boundary
-highlight ColorColumn ctermbg=magenta
-call matchadd('ColorColumn', '\%81v', 100)
+highlight Over80Cols ctermbg=magenta
+2match Over80Cols '\%81v.'
