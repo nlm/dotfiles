@@ -3,6 +3,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set smarttab
+set backspace=indent,eol,start
 syntax on
 filetype on
 filetype indent on
